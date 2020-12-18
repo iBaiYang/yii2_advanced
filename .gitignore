@@ -17,9 +17,6 @@ nbproject
 # windows thumbnail cache
 Thumbs.db
 
-# composer vendor dir
-/vendor
-
 # composer itself is not needed
 composer.phar
 
@@ -33,3 +30,19 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+
+# composer vendor dir
+/vendor
+
+# composer lock
+composer.lock
+
+# runtime
+backend/runtime/*
+console/runtime/*
+frontend/runtime/*
+
+# .htaccess
+backend/web/.htaccess
+console/web/.htaccess
+frontend/web/.htaccess
